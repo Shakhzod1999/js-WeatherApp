@@ -92,3 +92,12 @@ main {
   font-weight: 500;
   text-shadow: 0 4px rgba(0, 0, 0, 0.4);
 }
+
+@media screen and (max-width: 900px) {
+  .app_wrap {
+    grid-template-columns: 100%;
+  }
+  main {
+    margin-top: 50px;
+  }
+}
